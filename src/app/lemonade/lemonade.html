@@ -5,6 +5,7 @@
             (incrementProductByName)="increment(product.name)" (decrementProductByName)="decrement(product.name)">
         </app-product>
     </app-card>
-    <app-glass [percentLemonJuice]="products[0].amount" [percentWater]="products[1].amount"
-        [percentSugar]="products[2].amount" [percentIce]="products[3].amount"></app-glass>
+    <app-glass [percentLemonJuice]="100 - (products[0].amount / products[0].max) * 100"
+        [percentWater]="100 - (products[1].amount / products[1].max) * 100"
+        [percentSugar]="100 - (products[2].amount / products[2].max) * 30" [iceCubes]="products[3].amount"></app-glass>
 </div>

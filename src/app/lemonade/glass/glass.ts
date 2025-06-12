@@ -12,6 +12,6 @@ export class Glass {
   @Input() percentLemonJuice: number = 0
   @Input() percentWater: number = 0
   @Input() percentSugar: number = 0
-  @Input() percentIce: number = 0
+  @Input() iceCubes: number = 0
 
 }
