@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# LemonadeStand
+# Angular-LemonadeStand
+Lemonade Stand project using angular, for the purposes of learning this framework
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
 
@@ -58,7 +58,3 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# Angular-LemonadeStand
-Lemonade Stand project using angular, for the purposes of learning this framework
->>>>>>> 962fe086991873bfa6ed17568846e7ed43dadc73
