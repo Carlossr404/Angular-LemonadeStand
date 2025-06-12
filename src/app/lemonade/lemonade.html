@@ -1,9 +1,10 @@
 <div class="lemonade">
-    <app-glass></app-glass>
     <app-card>
         <app-product *ngFor="let product of products" [name]="product.name" [amount]="product.amount"
             [max]="product.max" [price]="product.price" [unit]=" product.unit"
             (incrementProductByName)="increment(product.name)" (decrementProductByName)="decrement(product.name)">
         </app-product>
     </app-card>
+    <app-glass [percentLemonJuice]="products[0].amount" [percentWater]="products[1].amount"
+        [percentSugar]="products[2].amount" [percentIce]="products[3].amount"></app-glass>
 </div>
